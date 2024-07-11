@@ -1,0 +1,18 @@
+<div id="printmanager">
+    <h2>Filament Verbrauch</h2>
+    <div id="filament_list"></div>
+    <button onclick="addFilament()">Add Filament</button>
+
+    <h2>Druck hinzufügen</h2>
+    <form id="add_print_form">
+        <input type="text" id="print_name" placeholder="Name des Drucks" required>
+        <input type="text" id="filament_color" placeholder="Filament-Farbe" required>
+        <input type="number" id="filament_amount" placeholder="Filament-Verbrauch in Gramm" required>
+        <button type="submit">Druck hinzufügen</button>
+    </form>
+
+    <h2>Verlauf</h2>
+    <div id="print_history"></div>
+</div>
+
+<script src="js/printmanager.js"></script>
